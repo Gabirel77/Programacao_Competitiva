@@ -1,7 +1,8 @@
 def revigorante():
-    D_inicial = int(input())
-    C_atividades = int(input())
-    R_atividades = int(input())
+    lista = list(map(int, input().split()))
+    D_inicial = lista[0]
+    C_atividades = lista[1]
+    R_atividades = lista[2]
     total_atividades=R_atividades
 
     listaC = []
